@@ -1,83 +1,102 @@
-# 🏗️ Prajapati Steel - Demo Business Website
+# 🏗️ Prajapati Steel — Manufacturing & Digital Storefront Platform
 
-![Prajapati Steel Preview](https://prajaparisteel.netlify.app/logo.jpg)
+<div align="center">
+  <p align="center">
+    <b>A modern digital storefront showcasing premium stainless steel fabrications, hotel equipment, and modular kitchens.</b><br>
+    Engineered with Next.js 16, React 19, TypeScript, Tailwind CSS v4, Framer Motion, and Radix UI.
+  </p>
 
-> A modern, responsive demo website showcasing a premium digital storefront for a legacy stainless steel supplier based in Mumbai.
+  <p align="center">
+    <a href="https://prajaparisteel.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-prajaparisteel.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" /></a>
+    &nbsp;
+    <a href="https://github.com/Akshayjg2204/prajapati-steel-website"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" /></a>
+  </p>
 
-**[Live Demo](https://prajaparisteel.netlify.app/) | [Report Bug](https://github.com/Akshayjg2204/prajapati-steel/issues) | [Request Feature](https://github.com/Akshayjg2204/prajapati-steel/issues)**
+  <p align="center">
+    <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
+    <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat-square&logo=radixui&logoColor=white" />
+  </p>
+</div>
 
-## ✨ Overview
+---
 
-This project is a high-performance portfolio piece designed to demonstrate modern web development practices. It simulates a fully functional, professional business website for "Prajapati Steel" (Est. 1985), providing a clear user journey from exploring premium steel products to understanding the company's legacy and initiating contact.
+## 📸 Platform Showcase
 
-### Key Features
-* **Modern UI/UX:** Built with a clean, component-driven design system featuring interactive carousels, accordions, and hover cards.
-* **Products Showcase:** Detailed sections highlighting key offerings: Modular Kitchens, Hotel Equipment, and Steel Furniture.
-* **Company Legacy Section:** A dedicated "About Us" section highlighting the company's 40+ years of experience, core values, and mission.
-* **Direct Communication Integration:** Includes functional UI elements for contact forms, direct email links, and phone dialing.
-* **Dark/Light Mode:** Includes a seamless theme toggler for user preference using a custom theme provider.
-* **Fully Responsive:** Optimized UI for flawless browsing across desktop, tablet, and mobile devices.
+<div align="center">
+  <a href="https://prajaparisteel.netlify.app/">
+    <img src="https://prajaparisteel.netlify.app/logo.jpg" alt="Prajapati Steel Storefront & Manufacturing Showcase" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);" />
+  </a>
+  <p align="center">
+    <sub><b>✨ Interactive showcase for industrial stainless steel manufacturing, commercial kitchens, and custom metal fabrications.</b></sub><br>
+    <b><a href="https://prajaparisteel.netlify.app/">🚀 Launch Live Web App</a></b>
+  </p>
+</div>
+
+---
+
+## ✨ Design & Engineering Highlights
+
+- **🏗️ Industrial Product Catalog:** Interactive catalog showcasing commercial kitchen workstations, industrial hotel equipment, SS railings, and residential modular kitchens.
+- **⚡ Next.js 16 & React 19 Architecture:** High-speed server-rendered layouts and client components for zero-delay navigation and fluid interactivity.
+- **📜 40-Year Heritage & Trust Milestones:** Timeline component tracing 40+ years of manufacturing legacy since 1985 with key certifications and quality benchmarks.
+- **🌓 Adaptive Theme Engine:** Seamless Light and Dark mode transitions powered by `next-themes` with persistent state.
+- **📱 True Cross-Device Responsiveness:** Engineered from mobile viewports up to ultrawide desktop monitors with fluid typography.
+
+---
 
 ## 🛠️ Tech Stack
 
-* **Framework:** [Next.js](https://nextjs.org/) (App Router)
-* **Language:** TypeScript
-* **Styling:** Tailwind CSS
-* **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
-* **Package Manager:** pnpm
-* **Hosting/Deployment:** Netlify / Vercel
+| Technology | Purpose |
+| :--- | :--- |
+| **Next.js 16** | App Router, static site generation, and optimized image delivery |
+| **React 19** | Concurrent UI component architecture |
+| **TypeScript** | Strict compile-time typing across all product catalog interfaces |
+| **Tailwind CSS v4** | Next-generation utility styling with CSS variable design tokens |
+| **Framer Motion** | Dynamic scroll animations, catalog entry transitions, and layout reveals |
+| **Radix UI / shadcn** | Accessible headless UI primitives (Dialogs, Tabs, Accordions) |
+| **Embla Carousel** | Touch-friendly product showcases and client reviews |
+| **Lucide React** | Consistent vector iconography |
 
-## 🚀 Getting Started
+---
 
-To get a local copy of this project up and running, follow these steps.
+## 🚀 Getting Started Locally
 
 ### Prerequisites
+- Node.js 18+ or 20+
+- pnpm or npm
 
-Make sure you have Node.js installed, along with pnpm.
+```bash
+# 1. Clone the repository
+git clone https://github.com/Akshayjg2204/prajapati-steel-website.git
+cd prajapati-steel-website
 
-    npm install -g pnpm
+# 2. Install dependencies
+pnpm install
+# or: npm install
 
-### Installation
+# 3. Start development server
+pnpm dev
+# or: npm run dev
+```
 
-1. **Clone the repository:**
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-    git clone https://github.com/Akshayjg2204/prajapati-steel.git
+### Building for Production
+```bash
+pnpm build
+# or: npm run build
+```
 
-2. **Navigate to the project directory:**
+---
 
-    cd prajapati-steel
+## 👨‍💻 Author
 
-3. **Install dependencies:**
-
-    pnpm install
-
-4. **Start the development server:**
-
-    pnpm dev
-
-Open http://localhost:3000 with your browser to see the result.
-
-## 📂 Project Structure
-
-    ├── app/                     # Next.js App Router (pages & layouts)
-    │   ├── globals.css          # Global styling
-    │   ├── layout.tsx           # Root layout
-    │   └── page.tsx             # Main landing page
-    ├── components/              # React components
-    │   ├── ui/                  # shadcn/ui component library
-    │   ├── About.tsx            # Company legacy and values section
-    │   ├── Contact.tsx          # Contact form and routing
-    │   ├── Header.tsx           # Site header and navigation
-    │   ├── Hero.tsx             # Hero section component
-    │   ├── Products.tsx         # Steel products showcase
-    │   └── theme-provider.tsx   # Dark/Light mode provider
-    ├── hooks/                   # Custom React hooks (e.g., use-mobile)
-    ├── lib/                     # Utility functions (e.g., utils.ts)
-    ├── public/                  # Static assets
-    │   └── logo.jpg             # Company logo and placeholders
-    ├── styles/                  # Additional global styles
-    ├── .env.development.local   # Environment variables
-    ├── components.json          # shadcn/ui configuration
-    ├── next.config.mjs          # Next.js configuration
-    ├── package.json             # Project metadata and dependencies
-    └── tsconfig.json            # TypeScript configuration
+**Akshay Gaikwad**  
+Founder & Lead Engineer at [Streamline.dev](https://github.com/Streamline-dev0)  
+- 🌐 Portfolio: [stream-line.dev](https://stream-line.dev/)  
+- 💼 LinkedIn: [linkedin.com/in/akshayjgaikwad](https://www.linkedin.com/in/akshayjgaikwad/)  
+- 🐙 GitHub: [@Akshayjg2204](https://github.com/Akshayjg2204)  

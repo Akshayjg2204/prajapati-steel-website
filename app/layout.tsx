@@ -7,9 +7,44 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Prajapati Steel | Premium Stainless Steel Products',
-  description: 'Leading steel products supplier in Mumbai. Furniture, Hotel Equipment, Modular Kitchen. Premium Stainless Steel Solutions since 1985.',
-  generator: 'v0.app',
+  title: 'Prajapati Steel | Premium Stainless Steel Products & Commercial Kitchens',
+  description:
+    'Leading stainless steel products manufacturer and supplier in Mumbai since 1985. Specialized in Modular Kitchens, Hotel Equipment, and Commercial Steel Furniture.',
+  authors: [{ name: 'Akshay Gaikwad', url: 'https://stream-line.dev/' }],
+  keywords: [
+    'Prajapati Steel',
+    'stainless steel Mumbai',
+    'commercial kitchens',
+    'hotel equipment',
+    'modular steel kitchens',
+    'steel furniture',
+    'Next.js',
+    'TypeScript',
+    'Tailwind CSS',
+  ],
+  openGraph: {
+    title: 'Prajapati Steel | Premium Stainless Steel Products & Commercial Kitchens',
+    description:
+      'Leading stainless steel products manufacturer and supplier in Mumbai since 1985. Specialized in Modular Kitchens, Hotel Equipment, and Commercial Steel Furniture.',
+    url: 'https://prajaparisteel.netlify.app/',
+    siteName: 'Prajapati Steel',
+    images: [
+      {
+        url: 'https://prajaparisteel.netlify.app/logo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Prajapati Steel Manufacturing & Storefront',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Prajapati Steel | Premium Stainless Steel Products & Commercial Kitchens',
+    description:
+      'Leading stainless steel products manufacturer in Mumbai since 1985.',
+    images: ['https://prajaparisteel.netlify.app/logo.jpg'],
+  },
   icons: {
     icon: [
       {
