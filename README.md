@@ -1,8 +1,8 @@
-# 🏗️ Prajapati Steel — Manufacturing & Digital Storefront Platform
+# 🏗️ Prajapati Steel — Manufacturing & Storefront Platform (Demo)
 
 <div align="center">
   <p align="center">
-    <b>A modern digital storefront showcasing premium stainless steel fabrications, hotel equipment, and modular kitchens.</b><br>
+    <b>A modern digital storefront demo website showcasing premium stainless steel fabrications, hotel equipment, and modular kitchens.</b><br>
     Engineered with Next.js 16, React 19, TypeScript, Tailwind CSS v4, Framer Motion, and Radix UI.
   </p>
 
